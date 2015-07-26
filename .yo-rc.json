@@ -1,0 +1,19 @@
+{
+  "generator-jhipster": {
+    "baseName": "jobvacancy",
+    "packageName": "com.jobvacancy",
+    "packageFolder": "com/jobvacancy",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "useCompass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "javaVersion": "7",
+    "rememberMeKey": "872f474e11063909a86a2678c3cb6462b90a7e1e"
+  }
+}

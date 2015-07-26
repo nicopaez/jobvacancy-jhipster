@@ -141,3 +141,8 @@ ul#strength {
     width:20px;
 }
 /* end Password strength bar style */
+
+.jumbotron {
+    margin: 80px 0;
+    text-align: center;
+}

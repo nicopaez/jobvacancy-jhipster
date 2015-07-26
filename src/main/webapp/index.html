@@ -26,10 +26,9 @@
         <div ng-show="{{ENV === 'dev'}}" class="development" ng-cloak=""></div>
         <div ui-view="navbar" ng-cloak=""></div>
         <div class="container">
-            <div class="well" ui-view="content"></div>
-
+            <div ui-view="content"></div>
             <div class="footer">
-                <p translate="footer">This is your footer</p>
+                <p translate="footer">Job Vacancy Board by NicoPaez | 2015</p>
             </div>
         </div>
 
@@ -118,6 +117,10 @@
         <script src="scripts/components/auth/provider/auth.session.service.js"></script>
         <script src="scripts/app/account/sessions/sessions.js"></script>
         <script src="scripts/app/account/sessions/sessions.controller.js"></script>
+        <script src="scripts/app/entities/joboffer/joboffer.js"></script>
+        <script src="scripts/app/entities/joboffer/joboffer.controller.js"></script>
+        <script src="scripts/app/entities/joboffer/joboffer-detail.controller.js"></script>
+        <script src="scripts/components/entities/joboffer/joboffer.service.js"></script>
         <!-- endbuild -->
 </body>
 </html>

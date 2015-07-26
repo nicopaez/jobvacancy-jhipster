@@ -1,0 +1,20 @@
+{
+    "jobvacancyApp": {
+        "jobOffer" : {
+            "home": {
+                "title": "JobOffers",
+                "createLabel": "Create a new JobOffer",
+                "createOrEditLabel": "Create or edit a JobOffer"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete JobOffer {{ id }}?"
+            },
+            "detail": {
+                "title": "JobOffer"
+            },
+            "title": "Title",
+            "description": "Description",
+            "location": "Location"
+        }
+    }
+}
